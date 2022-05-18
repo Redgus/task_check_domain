@@ -5,6 +5,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Product;
 use App\Http\Controllers\Client;
 
+use App\Http\Controllers\Domain;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,11 +18,8 @@ use App\Http\Controllers\Client;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Route::get('/domain', [Domain::class, 'sds']);
 
-Route::get('/products', [Product::class, 'store'])->name('products');
+Route::get('/domain', [Domain::class, 'store'])->name('domain');
 
-Route::post('/product_create', [Product::class, 'create'])->name('product_create');
-
-Route::get('/clients', [Client::class, 'store'])->name('clients');
-
-Route::post('/client_create', [Client::class, 'create'])->name('client_create');
+Route::get('/check_domain', [Domain::class, 'check_domain'])->name('check_domain');

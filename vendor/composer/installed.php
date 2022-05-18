@@ -1,7 +1,7 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v8.6.12',
-        'version' => '8.6.12.0',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -395,8 +395,8 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'v8.6.12',
-            'version' => '8.6.12.0',
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -542,6 +542,24 @@
             'install_path' => __DIR__ . '/../nikic/php-parser',
             'aliases' => array(),
             'reference' => '210577fe3cf7badcc5814d99455df46564f3c077',
+            'dev_requirement' => false,
+        ),
+        'novutec/domainparser' => array(
+            'pretty_version' => 'v2.0.11',
+            'version' => '2.0.11.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../novutec/domainparser',
+            'aliases' => array(),
+            'reference' => 'd33171d9c8e8ca754ec40dd87fbb75af47c58617',
+            'dev_requirement' => false,
+        ),
+        'novutec/whoisparser' => array(
+            'pretty_version' => 'v3.2.13',
+            'version' => '3.2.13.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../novutec/whoisparser',
+            'aliases' => array(),
+            'reference' => '50981adfe18cb884e03ee3ae8dbb04888a65d17f',
             'dev_requirement' => false,
         ),
         'nunomaduro/collision' => array(

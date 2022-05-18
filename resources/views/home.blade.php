@@ -153,8 +153,7 @@
                       <div class="widget stay-on-collapse" id="widget-sidebar">
                          <nav role="navigation" class="widget-body">
                             <ul class="acc-menu">
-                              <li><a href="{{ route('products') }}"><i class="fa fa-home"></i><span>Продукт</span></a></li>
-                              <li><a href="{{ route('clients') }}"><i class="fa fa-home"></i><span>Клиент</span></a></li>
+                              <li><a href="{{ route('domain') }}"><i class="fa fa-home"></i><span>Продукт</span></a></li>
                             </ul>
                          </nav>
                       </div>
